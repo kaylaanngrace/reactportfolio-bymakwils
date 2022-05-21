@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navigation(props) {
+function Nav(props) {
   const navs = ["About", "Portfolio", "Contact", "Resume"];
   return (
     <div className="">
@@ -26,4 +26,4 @@ function Navigation(props) {
   );
 }
 
-export default Navigation;
+export default Nav;
