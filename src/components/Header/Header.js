@@ -1,6 +1,5 @@
-//Needs to include Name and pull in Navigation component
 import React, { useState } from 'react';
-import Navigation from "../Navigation/Navigation";
+import Nav from "../Navigation/Navigation";
 import About from "../About/About";
 import Contact from "../Contact/Contact";
 import Portfolio from "../Portfolio/Portfolio";
@@ -41,7 +40,7 @@ function Header() {
         </div>
       </nav>
       {/* Pass the state value and the setter as props to NavTabs */}
-      <Navigation
+      <Nav
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
