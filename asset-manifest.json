@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/reactportfolio-bymakwils/static/css/main.8832ea63.css",
+    "main.js": "/reactportfolio-bymakwils/static/js/main.48268339.js",
+    "static/js/787.5282ddbe.chunk.js": "/reactportfolio-bymakwils/static/js/787.5282ddbe.chunk.js",
+    "static/media/profilepic.jpeg": "/reactportfolio-bymakwils/static/media/profilepic.da9aa8809f6a71b772df.jpeg",
+    "index.html": "/reactportfolio-bymakwils/index.html",
+    "main.8832ea63.css.map": "/reactportfolio-bymakwils/static/css/main.8832ea63.css.map",
+    "main.48268339.js.map": "/reactportfolio-bymakwils/static/js/main.48268339.js.map",
+    "787.5282ddbe.chunk.js.map": "/reactportfolio-bymakwils/static/js/787.5282ddbe.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8832ea63.css",
+    "static/js/main.48268339.js"
+  ]
+}
