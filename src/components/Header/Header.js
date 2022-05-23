@@ -12,38 +12,38 @@ function Header() {
   const renderPage = () => {
     switch (currentPage) {
       case "About":
-        return <About />;
+        return <About/>;
       case "Portfolio":
-        return <Portfolio />;
+        return <Portfolio/>;
       case "Contact":
-        return <Contact />;
+        return <Contact/>;
       case "Resume":
-        return <Resume />;
+        return <Resume/>;
 
       default:
-        return <About />;
+        return <About/>;
     }
   };
 
   return (
     <div>
-      <nav className="">
-        <div className="">
+      <nav className="navbar">
+        <div className="navbar-item">
           <a
-            className=""
+            className="navbar-item"
             rel="noreferrer"
             target="_blank"
             href="https://github.com/kaylaanngrace"
           >
-            <span className="">kaylaanngrace</span>
+            <h2 className="">Makayla Wilson</h2>
           </a>
         </div>
       </nav>
       {/* Pass the state value and the setter as props to NavTabs */}
-      <Nav
+      <Nav>
         currentPage={currentPage}
         handlePageChange={handlePageChange}
-      />
+      </Nav>
       {/* Call the renderPage function passing in the currentPage */}
       <main>
         <div>{renderPage(currentPage)}</div>

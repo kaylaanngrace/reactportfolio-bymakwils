@@ -1,21 +1,21 @@
 import React from "react";
 
-function Nav(props) {
+function Navigation(props) {
   const navs = ["About", "Portfolio", "Contact", "Resume"];
   return (
-    <div className="">
-      <ul className="">
+    <div className="d flex justify-content-center">
+      <ul className="nav-item">
         {navs.map((nav) => (
           <li
             className={
-              props.currentPage === nav
+              props.currentPage === nav ? "nav-item active" : "nav-link"
             }
             key={nav}>
             <a
               href={"#" + nav.toLowerCase()}
               onClick={() => props.handlePageChange(nav)}
               className={
-                props.currentPage === nav
+                props.currentPage === nav ? "nav-link active" : "nav-link"
               }>
               {nav}
             </a>
@@ -26,4 +26,4 @@ function Nav(props) {
   );
 }
 
-export default Nav;
+export default Navigation;

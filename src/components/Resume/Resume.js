@@ -5,7 +5,7 @@ function Resume() {
     <div className="">
 
         <a className="" href={process.env.PUBLIC_URL + "../RESUME-MakaylaWilson.pdf"} target="_blank" rel="noreferrer">
-          <span className="icon"> <i className="fas fa-download"></i></span>
+          <i class="fa-solid fa-file-arrow-down"></i>
           <span>Download My Resume</span>
         </a>
     </div>

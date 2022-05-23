@@ -3,7 +3,7 @@ import React from "react";
 function Footer() {
   return (
     <footer className="footer">
-      <div className="">
+      <div className="d flex justify-content-center">
         <p>
             <a href="https://github.com/kaylaanngrace" target="_blank" rel="noreferrer"> GitHub
             </a>
